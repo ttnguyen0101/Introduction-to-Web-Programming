@@ -137,7 +137,10 @@ function Homework()
     loop through each element
     and assign the classname "green"
     */
-    
+    var para = document.getElementsByTagName("p");
+    for(var i = 0; i < para.length; i++) {
+        para.className += "green";
+    }
 
     /*Task 4
     Create a new link
@@ -146,6 +149,11 @@ function Homework()
     assign ClassA as its style
     Add it as a child to the the div with id="parent"
     */
-   
+   var parent = document.getElementById("parent");
+   var newlink = document.createElement("link");
+   newlink.innerText = "Link";
+   newlink.href = "http://www.tri-c.edu";
+   newlink.style = "classA";
+   parent.appendChild(newlink);
 }
 

@@ -1,1 +1,1 @@
-# IT1150-ThuTNguyen-Spring2022
+# IT 1150 - Introduction to Web Programming
